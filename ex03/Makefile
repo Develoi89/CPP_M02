@@ -1,9 +1,12 @@
 NAME		=	test
 
 SRC			=	Fixed.cpp\
+				bsp.cpp\
+				Point.cpp\
 				main.cpp
 
-HDS			=	Fixed.hpp		
+HDS			=	Fixed.hpp\
+				Point.hpp		
 
 OBJ			=	$(SRC:.cpp=.o)
 
